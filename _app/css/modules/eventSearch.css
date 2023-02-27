@@ -10,6 +10,7 @@
 	display: block;
 	margin-bottom: 1rem; 
 }
+
  
 .event-search__input {
 	padding: 1rem;
@@ -17,13 +18,18 @@
 }
 
 .event-search__input {
+	font-size: 1rem;
 	padding: 1rem;
 	border-radius: 5px 0 0 5px; 
 	border: none;
 	outline: none;
+	width: 200px;
+	height: 100%;
+	margin-bottom: 1rem;
 }
  
 .event-search__button {
+	font-size: 1rem;
 	padding: 1rem;
 	border-radius: 0 5px 5px 0; 
 	border: none;
@@ -32,6 +38,8 @@
 	color: var(--primary-color);
 	cursor: pointer;
 	transition: background-color 0.3s ease;
+	height: 100%;
+	margin-top: auto;
 }
 
 .event-search__button:hover {
