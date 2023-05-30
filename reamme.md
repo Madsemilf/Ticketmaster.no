@@ -1,17 +1,17 @@
-Search Ticketmaster events by City!
+## Search Ticketmaster events by City!
 
-Features
+## Features
 
 - Search every know City in Norway. If the City has any upcoming events, they will show here.
 - Displays max 5 events.
 
-Language used
+## Language used
 
-This application is written in:
+## This application is written in:
 - HTML
 - CSS
 - JavaScript
 
-The application uses the following API
+## The application uses the following API
 
 - TicketmasterAPI
