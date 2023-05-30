@@ -1,29 +1,26 @@
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Ticketmaster.no</title>
-		<link rel="stylesheet" href="/_app/css/main.css">
-		<script type="module" src="/_app/js/main.js"></script>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ticketmaster.no</title>
+	<link rel="stylesheet" href="/_app/css/main.css">
+	<script type="module" src="/_app/js/main.js"></script>
+</head>
 	<body>
 		<header>
 			Ticketmaster EVENTS
 		</header>
-
-		<select name="" id=""></select>
+		
+		<select name="country" id="country-select"></select>
 		<div class="event-search">
-			<label class="event-search__label" for="event-search">City:</label>
+			<label class="event-search__label" for="search-input">City:</label>
 			<div>
 				<input class="event-search__input" type="search" id="search-input" name="event">
 				<button class="event-search__button" id="event-search">Search</button>
 			</div>
 		</div>
-		<main id="event-output" class="event-output">
+		<main class="events" id="result">
 			
 		</main>
-		<footer>
-			
-		</footer>
 	</body>
 </html>
